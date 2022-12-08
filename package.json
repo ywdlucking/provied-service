@@ -1,0 +1,28 @@
+{
+  "name": "provide-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywdlucking/provied-service.git"
+  },
+  "keywords": [
+    "service"
+  ],
+  "author": "ywd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ywdlucking/provied-service/issues"
+  },
+  "homepage": "https://github.com/ywdlucking/provied-service#readme",
+  "dependencies": {
+    "mobx-miniprogram": "^4.13.2",
+    "mobx-miniprogram-bindings": "^2.1.5",
+    "tim-upload-plugin": "^1.0.6",
+    "tim-wx-sdk": "^2.24.2"
+  }
+}
