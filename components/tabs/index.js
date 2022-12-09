@@ -2,6 +2,7 @@ import { throttle } from "../../utils/utils";
 
 Component({
     options: {
+        //开启多插槽
         multipleSlots: true
     },
     /**

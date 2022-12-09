@@ -10,6 +10,9 @@
             <view wx:if="{{currentTabIndex === index}}" class="divider"/>
         </view>
     </view>
+    <!-- 内容不确定 -->
+    <!-- 状态不确定 -->
+    <!-- solt插槽 -->
     <slot name="extend"></slot>
     <view class="tab-planel" bind:touchstart="{{handleTouch.handleTouchStart}}"
           bind:touchend="{{handleTouch.handleTouchEnd}}">

@@ -4,6 +4,7 @@ import {
     throttle
 } from "../../utils/utils";
 
+const serviceModel = new Service()
 Page({
 
     /**
@@ -59,6 +60,11 @@ Page({
             showStatus: !serviceList.length,
             serviceList,
         })
+    },
+
+    handleTabChange: function (event) {
+        const index = event.detail.index
+        this._getInitServiceList(index, this.data.currentCategoryId)
     },
 
     /**

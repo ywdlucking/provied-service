@@ -2,6 +2,7 @@
 <template is="skeleton" wx-if="{{loading}}"/>
 <view class="container">
     <i-tabs tabs="{{tabs}}" catch:change="handleTabChange">
+        <!-- 插槽 -->
         <view slot="extend">
             <view class="remark" bind:tap="handleNavRemark">
                 <image class="remark-image" src="https://imooc.qinchenju.com/remark1.jpg"></image>
